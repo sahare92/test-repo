@@ -11,6 +11,6 @@ public class NuclioTest implements EventHandler {
 		
 //		HelloWorld helloWorld = new HelloWorld();
 		
-		return new Response().setBody(helloWorld.testCall());
+		return new Response().setBody("hello hello");
 	}
 }
