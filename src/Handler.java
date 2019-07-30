@@ -6,7 +6,7 @@ import io.nuclio.Response;
 public class Handler implements EventHandler {
 
 	@Override
-	public Response Handler(Context context, Event event) {
+	public Response handleEvent(Context context, Event event) {
 		context.getLogger().infoWith("in nuclio function", "body", "in function");
 		
 //		HelloWorld helloWorld = new HelloWorld();
