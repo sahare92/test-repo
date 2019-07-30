@@ -9,7 +9,7 @@ public class NuclioTest implements EventHandler {
 	public Response handleEvent(Context context, Event event) {
 		context.getLogger().infoWith("in nuclio function", "body", "in function");
 		
-		HelloWorld helloWorld = new HelloWorld();
+//		HelloWorld helloWorld = new HelloWorld();
 		
 		return new Response().setBody(helloWorld.testCall());
 	}
